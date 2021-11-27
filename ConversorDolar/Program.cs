@@ -22,7 +22,10 @@ namespace ConversorDolar
             Console.WriteLine("Valor a ser pago em reais = R$ " + conversor.ConversaoSemIOF());
             Console.WriteLine("Valor a ser pago de IOF = 4,08%");
             Console.WriteLine("Valor total da compra com IOF = R$ " + conversor.ConversaoComIOF());
-            
+
+
+            //IOF: https://riconnect.rico.com.vc/blog/iof
+            //Cotação: https://www.infomoney.com.br/ferramentas/cambio/
         }
     }
 }
